@@ -1,0 +1,1024 @@
+/* Reinicio de margenes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+/* Variables para colores */
+
+:root {
+  --fondo: #0f0e17;
+  --terciario: #ff8906;
+  --secundario: #f25f4c;
+  --otro: #e53170;
+  --white: #fffffe;
+  --parrafos: #a7a9be;
+  --primario: #2cb6a6;
+}
+
+body {
+  background-color: var(--fondo);
+}
+
+/* Estilos para navbar*/
+
+header {
+  padding-top: 50px;
+}
+
+
+nav.nav-transporte a.navbar-brand {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--white);
+  text-decoration: none;
+}
+
+nav.nav-transporte a.navbar-brand:hover {
+  color: var(--primario);
+  transition: 1s;
+}
+
+header nav a i {
+  font-size: 40px;
+  color: var(--primario);
+  margin-right: 100px;
+}
+
+header nav a i:hover {
+  color: var(--white);
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
+nav.nav-transporte ul li a {
+  color: var(--white);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+nav.nav-transporte ul li a:hover {
+  color: var(--secundario);
+  transition: 0.2s;
+}
+
+header nav ul li {
+  margin-top: 14px;
+}
+
+header nav ul li a:hover {
+  color: var(--titulos);
+}
+
+header nav ul button.cotizar {
+  background-color: transparent;
+  border: 2px solid var(--primario);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 150px;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+header nav ul button.cotizar a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+header nav ul button.cotizar:hover {
+  background-color: transparent;
+  border: solid var(--secundario);
+  transition: 0.5s;
+}
+
+header nav ul button.contactar {
+  background-color: var(--primario);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+header nav ul button.contactar a {
+  text-decoration: none;
+  color: var(--white);
+  
+
+}
+
+header nav ul button.contactar:hover {
+  background-color: var(--secundario);
+  border: solid var(--secundario);
+  transition: 0.5s;
+}
+
+/* Estilos para el hero*/
+
+
+
+#hero {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+  margin-top: 20px;
+}
+
+#hero h1 {
+  color: var(--primario);
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#hero p.Hero-info {
+  color: var(--parrafos);
+  font-size: 20px;
+  
+}
+
+#hero .diferenciasLunar {
+  margin-top: 50px;
+  padding: 60px 80px;
+  border-radius: 20px;
+  text-align: left;
+
+
+}
+
+
+#hero .diferenciasLunar ul {
+  margin-bottom: 40px;
+  padding: 15px 15px;
+  max-width: max-content;
+  border-radius: 10px;
+  border: 1px solid var(--secundario);
+  
+}
+
+
+#hero .diferenciasLunar ul li button {
+  border-radius: 10px;
+  color: var(--white);
+  font-weight: 500;
+  background-color: transparent;
+  width: 120px;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 40px;
+  
+}
+
+#hero .diferenciasLunar ul li button.active {
+  border: 1px solid var(--secundario);
+  
+
+}
+
+#hero .diferenciasLunar ul li button.active:hover {
+  background-color: var(--secundario);
+  
+ 
+}
+
+
+div.carousel-item {
+  border: 1px solid var(--secundario);
+  height: 350px;
+  border-radius: 20px;
+}
+
+
+
+
+div.carousel-item h4 {
+  font-size: 60px;
+  color: var(--primario);
+  padding: 30px;
+  margin-top: 20px;
+  text-align: center;
+ 
+}
+
+div.carousel-item p {
+  color: var(--white);
+  font-size: 20px;
+  text-align: center;
+  padding: 40px;
+}
+
+#hero .foto img {
+  margin-top: 115px;
+  width: 100%;
+  height: 90%;
+  cursor: pointer;
+}
+
+#hero .foto img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+/* Estilos para la seccion de nuestros valores
+ */
+
+ #valores {
+  width: 100%;
+  
+  text-align: center;
+  padding:0;
+  background-color:var(--white);
+
+
+}
+
+#valores h2 {
+  color: var(--secundario);
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  
+
+}
+
+#valores .card-valores {
+
+  margin-right: 70px;
+  padding: 30px;
+  border: 2px dashed var(--primario);
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+#valores .card-valores:hover {
+  transform: scale(0.9);
+  background-color: var(--secundario);
+  border: 10px solid var(--fondo);
+  border-radius: 50px;
+  color: var(--white);
+  transition: 1s;
+}
+
+
+#valores .card-valores img {
+    width: 50%;
+    height: 400px;
+ 
+}
+
+
+/* Estilos para la seccion de metodos de transporte */
+
+#formas-transporte {
+  background-color: var(--fondo);
+  width: 100%;
+
+}
+
+
+#formas-transporte h3 {
+  color: var(--primario);
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 130px;
+  margin-top: 150px;
+
+}
+
+table {
+  height: 600px;
+  margin-bottom: 100px;
+  border: 1px solid var(--white);
+
+}
+
+th {
+ 
+  text-align: center;
+  font-size: 20px;
+  color: var(--white);
+  border-radius: 0px;
+  padding: 10px;
+
+}
+
+td {
+
+  color:var(--parrafos);
+  text-align: center;
+  padding: 10px;
+}
+
+td a {
+  color: var(--white);
+
+  text-decoration: none;
+}
+
+td a:hover {
+  color: var(--white);
+}
+
+td:hover {
+  background-color: var(--otro);
+  color: var(--white);
+  transition: 1s;
+  border: 1px solid var(--white);
+  
+}
+
+/* Estilos para el footer */
+
+footer {
+  width: 100%;
+  height: 100%;
+  background-color:var(--white);
+}
+
+
+.clase-flex {
+  display:flex;
+  align-items: center;
+  text-align: center;
+}
+
+footer div.logo-footer a.footer-brand {
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--fondo);
+  text-decoration: none;
+}
+
+footer .logo-footer a i {
+  font-size: 50px;
+  color: var(--primario);
+  margin-right: 100px;
+}
+
+footer .logo-footer a i:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
+footer .redes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .redes a {
+  font-size: 50px;
+  text-decoration: none;
+}
+
+footer .redes a i {
+  color: var(--fondo);  
+}
+
+footer .redes a i:hover {
+  color: var(--primario);
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
+footer div.derechos p {
+  color: var(--fondo);
+  font-weight: 400;
+  margin-top: 70px;
+  font-size: 25px;
+}
+
+footer div.derechos p span {
+  color: var(--primario);
+  font-weight: 500;
+}
+
+/* Estilos para la sección de nosotros */
+
+
+#seccionNosotros{
+  padding-top: 250px;
+  margin-bottom: 0;
+
+}
+
+#seccionNosotros .foto img {
+  margin-left: 50px;
+  filter: drop-shadow(100px 5px 25px var(--primario));
+  animation-name: animacion;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+ 
+}
+
+/* Animación para la foto */
+
+@keyframes animacion {
+
+  0% {
+    transform: scale(.8);
+    filter: drop-shadow(100px 5px 25px var(--primario));
+  }
+
+  50% {transform: scale(1.2);
+    filter: drop-shadow(100px 5px 25px var(--secundario))}
+
+  100% {transform: scale(.8);
+    filter: drop-shadow(100px 5px 25px var(--terciario))}
+  
+}
+
+
+#seccionNosotros .informacion {
+  padding-right: 100px;
+
+
+}
+
+#seccionNosotros .informacion h3 {
+  color: var(--white);
+  font-size: 30px;
+  text-align: justify;
+  margin-bottom: 60px;
+}
+
+#seccionNosotros .informacion .info-destacada h2 {
+  color: var(--white);
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#seccionNosotros .info-destacada p {
+  font-size: 18px;
+  color: var(--parrafos);
+
+ 
+}
+
+
+/* Estilos para la sección de servicios */
+
+
+
+#servicios {
+    padding: 100px 0 0;
+    text-align: center;
+
+}
+
+#servicios h1 {
+    color: var(--primario);
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#servicios p{
+    color: var(--parrafos);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#servicios .row {
+    padding-top: 70px;
+}
+
+#servicios .Card-servicios {
+ 
+    border-radius: 10px;
+    position: relative;
+    padding: 50px 30px 30px;
+    max-width: 300px;
+    margin:  0 auto;
+    margin-bottom: 70px;
+    background: rgba(8, 8, 8, 0.056);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+}
+
+#servicios .Card-servicios img {
+    background: rgba(255, 255, 255, 0.056);
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 10px;
+    position: absolute;
+    top: -30px;
+    left: 35px;
+    
+}
+
+#servicios .Card-servicios h3 {
+    text-align:right;
+    color: var(--secundario);
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+#servicios .Card-servicios h4 {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 25px;
+
+}
+
+#servicios .Card-servicios p {
+    color: var(--parrafos);
+    font-size: 12px;
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+#servicios .Card-servicios button.leer-mas {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid var(--secundario);
+    display: block;
+    border-radius: 0;
+}
+
+#servicios .Card-servicios button.leer-mas:hover {
+  background-color: var(--secundario);
+  border-radius: 10px;
+  transition: 1s;
+}
+
+#servicios .Card-servicios button.leer-mas a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+#servicios .Card-servicios:hover {
+    transition: 1s;
+    background-color:#292c2c45;
+}
+
+#servicios .container button.ver {
+    background: rgba(255, 255, 255, 0.056);
+    border: 1px solid var(--white);
+    padding: 10px 40px;
+}
+
+#servicios .container button.ver:hover {
+  background-color: var(--secundario);
+}
+
+
+/* Estilos para la sección de clientes */
+
+
+#clientes {
+  padding: 100px 0 0;
+  text-align: center;
+
+}
+
+#clientes h1 {
+  color: var(--secundario);
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+
+#clientes h2{
+  color: var(--white);
+  font-size: 30px;
+  margin-bottom: 150px;
+  margin-top: 80px;
+}
+
+#clientes h2 span {
+  color: var(--primario);
+  font-size: 30px;
+}
+
+#clientes .Card-clientes {
+  position: relative;
+  height: 300px;
+  border-radius: 10px;
+  padding: 50px 30px 30px;
+  max-width: 380px;
+  background-color:white;
+  border-radius: 15px;
+}
+
+#clientes .Card-clientes img {
+  position: absolute;
+  background-color: var(--fondo);
+  width: 120px;
+  height: 120px;
+  padding: 15px;
+  border-radius: 50%;
+  top: -40px;
+  left: 90px;
+  
+}
+
+
+#clientes .Card-clientes h3 {
+  margin-top: 80px;
+  color: var(--secundario);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#clientes .Card-clientes h4 {
+  color: var(--fondo);
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 40px;
+
+}
+
+#clientes .Card-clientes button.btn-propio {
+  background-color:transparent;
+  border: 2px solid var(--fondo);
+  color: var(--fondo);
+  padding: 10 30px;
+  width: 100px;
+}
+
+#clientes .Card-clientes button.btn-propio:hover {
+  background-color: var(--secundario);
+  color: var(--white);
+  transform: scale(1.3);
+  transition: 1s;
+}
+
+#clientes .Card-clientes .decoracion-info {
+  background-color:#0f0e17c3;
+  border: 1px solid var(--primario);
+  color: var(--white);
+  font-size: 40px;
+}
+
+#clientes .Card-clientes .decoracion-info img.gifb {
+  background-color: var(--white);
+}
+
+#clientes .Card-clientes .decoracion-info img.gift {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  padding: 15px;
+  border-radius: 50%;
+  top: 220px;
+  left: 90px;
+  background-color: var(--white);
+}
+
+/* Estilos para la sección contactar */
+
+#contactar {
+  background-color: var(--white);
+}
+
+#contactar .carrusel-contactar{
+  border: none;
+  height: 100vh;
+
+
+}
+
+#contactar .carrusel-contactar img {
+  padding: 250px;
+  height: 100vh;
+}
+
+#contactar .form {
+  background-color: var(--fondo);
+  flex-direction: column;
+  padding: 0 20px;
+ 
+ 
+  
+}
+
+#contactar .cont-form {
+  background-color: var(--fondo);
+  margin-top: 200px;
+  padding: 0 40px;
+}
+
+#contactar .cont-form h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--primario);
+  margin-bottom: 40px;
+
+}
+
+#contactar .cont-form .superior {
+  font-size: 22px;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+#contactar .cont-form .separacion input {
+  margin-bottom: 30px;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid var(--primario);
+  padding: 15px 10px;
+
+}
+
+#contactar .cont-form .separacion input:focus {
+  border: 2px solid var(--secundario);
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+  
+#contactar .cont-form .enviar {
+  background-color: transparent;
+  padding: 20px 60px;
+  margin-top: 30px;
+  border: 1px solid var(--secundario);
+  font-size: 20px;
+}
+
+#contactar .cont-form .enviar:hover {
+  background-color: var(--secundario);
+  transition: 1s;
+}
+
+
+/* Estilos para la sección cotizar */
+
+#cotizar .carrusel-contactar{
+  border: none;
+  border-radius: 0;
+  background-color: rgba(125, 117, 117, 0.069);
+  height: 100vh;
+
+}
+
+#cotizar .carrusel-contactar img {
+  padding: 250px;
+  height: 100vh;
+}
+
+#cotizar .contenedor-padre {
+  padding: 0 50px;
+}
+#cotizar .cont-form h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--primario);
+  margin-top: 20px;
+  margin-bottom: 80px;
+
+}
+
+#cotizar .cont-form .superior {
+  font-size: 22px;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+#cotizar .cont-form .separacion input {
+  margin-bottom: 30px;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid var(--primario);
+  padding: 15px 10px;
+
+}
+
+#cotizar .cont-form .separacion input:focus {
+  border: 2px solid var(--secundario);
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+#cotizar .cont-form .form-select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid var(--primario);
+  border-radius: 0;
+  margin-bottom: 50px;
+}
+
+#cotizar .cont-form .form-select:focus {
+  box-shadow: none;
+}
+
+
+#cotizar .cont-form .radio-personalizado {
+  color: var(--white);
+  margin-bottom: 40px;
+}
+
+#cotizar textarea {
+  background-color: transparent;
+  border: 2px solid var(--primario);
+  margin-top: 10px;
+ 
+}
+
+#cotizar textarea:focus {
+  box-shadow: none;
+}
+
+#cotizar span {
+  color: var(--white);
+}
+
+
+
+#cotizar .cont-form .enviar {
+  background-color: transparent;
+  padding: 20px 60px;
+  margin-top: 30px;
+  border: 1px solid var(--secundario);
+  font-size: 20px;
+}
+
+#cotizar .cont-form .enviar:hover {
+  background-color: var(--secundario);
+  transition: 1s;
+}
+
+
+/* Estilos para la sección de transporte fluvial, terrestre y aérep*/
+
+.fondo {
+  min-height: 100vh;
+  position: relative;
+  background-image: url(../img/Moon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.informacionS {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+
+}
+
+
+
+.informacionS h1 {
+  margin-bottom: 120px;
+  color:var(--secundario);
+  font-size: 100px;
+}
+
+.informacionS p {
+  font-size: 28px;
+  text-align: center;
+  color:var(--parrafos);
+
+}
+
+.accion {
+  margin-top: 120px;
+  padding: 40px 40px;
+  font-weight: bold;
+  background-color: transparent;
+  color: var(--white);
+  border: 2px solid var(--secundario);
+  border-radius: 10px;
+}
+
+.accion:hover {
+  background-color: var(--secundario);
+  transition: 1s;
+}
+
+
+/* Estilos para el formulario con javascript */
+
+
+#compra .carrusel-contactar{
+  border: none;
+  border-radius: 0;
+  background-color:var(--fondo);
+  height: 100vh;
+
+}
+
+#compra .carrusel-contactar img {
+  padding: 250px;
+  height: 100vh;
+}
+
+#compra .contenedor-padre {
+  padding: 0 50px;
+}
+#compra .cont-form h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--primario);
+  margin-top: 20px;
+  margin-bottom: 80px;
+
+}
+
+#compra .cont-form .superior {
+  font-size: 22px;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+#compra .cont-form .separacion input {
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid var(--primario);
+  padding: 15px 10px;
+
+}
+
+#compra .cont-form .separacion input:focus {
+  border: 2px solid var(--secundario);
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+#compra .cont-form .form-select {
+  background-color: transparent;
+  color: var(--parrafos);
+  border: none;
+  border-bottom: 2px solid var(--primario);
+  border-radius: 0;
+  margin-bottom: 50px;
+}
+
+#compra .cont-form .form-select:focus {
+  box-shadow: none;
+}
+
+
+#compra .cont-form .enviar {
+  background-color: transparent;
+  padding: 20px 60px;
+  margin-top: 30px;
+  border: 1px solid var(--secundario);
+  font-size: 20px;
+}
+
+#compra .cont-form .enviar:hover {
+  background-color: var(--secundario);
+  transition: 1s;
+}
+
+#compra .form-select option {
+  color: var(--parrafos);
+}
+
+
+
+
+
+/* Animación para las waves que separan las secciones. Recurso tomado de: https://svgwave.in/ */
+
+.path-0{
+  animation:pathAnim-0 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pathAnim-0{
+  0%{
+    d: path("M 0,400 C 0,400 0,200 0,200 C 19.294908203965555,215.04372808564528 38.58981640793111,230.0874561712906 69,232 C 99.41018359206889,233.9125438287094 140.9356425722411,222.69390340048284 165,228 C 189.0643574277589,233.30609659951716 195.66761330310453,255.136930226778 216,235 C 236.33238669689547,214.863069773222 270.39390421534074,152.7583756924053 297,140 C 323.60609578465926,127.24162430759469 342.75676983553234,163.8295670036008 366,178 C 389.24323016446766,192.1704329963992 416.5790164425298,183.92335629319143 443,206 C 469.4209835574702,228.07664370680857 494.92716439434844,280.47700782363347 520,257 C 545.0728356056516,233.52299217636653 569.7123259800767,134.16861241227463 597,131 C 624.2876740199233,127.83138758772536 654.223531685345,220.84854252726785 678,239 C 701.776468314655,257.15145747273215 719.3935472785429,200.43721747865393 747,199 C 774.6064527214571,197.56278252134607 812.2022792004832,251.40258755811635 838,254 C 863.7977207995168,256.59741244188365 877.7973359195242,207.95243228888054 903,200 C 928.2026640804758,192.04756771111946 964.60837712142,224.7876832863615 989,218 C 1013.39162287858,211.2123167136385 1025.7691555947958,164.89683456567343 1053,180 C 1080.2308444052042,195.10316543432657 1122.3150004993959,271.6249784509447 1148,265 C 1173.6849995006041,258.3750215490553 1182.9708424076202,168.60325163054793 1205,143 C 1227.0291575923798,117.39674836945207 1261.8016298701223,155.96201502686344 1287,155 C 1312.1983701298777,154.03798497313656 1327.8226381118902,113.54868826199831 1356,126 C 1384.1773618881098,138.4513117380017 1424.9078176823168,203.84323192514333 1441,225 C 1457.0921823176832,246.15676807485667 1448.5460911588416,223.07838403742835 1440,200 C 1440,200 1440,400 1440,400 Z");
+  }
+  25%{
+    d: path("M 0,400 C 0,400 0,200 0,200 C 32.292088883458646,181.39716801616282 64.58417776691729,162.79433603232567 87,183 C 109.41582223308271,203.20566396767433 121.95537781578946,262.2198238868601 141,257 C 160.04462218421054,251.7801761131399 185.59431096992492,182.32636842023393 216,186 C 246.40568903007508,189.67363157976607 281.6673783045109,266.47470243220414 309,265 C 336.3326216954891,263.52529756779586 355.7361758120313,183.77482185094937 379,149 C 402.2638241879687,114.22517814905062 429.38791844736386,124.42601016399843 454,127 C 478.61208155263614,129.57398983600157 500.71215039851336,124.5211374930569 523,145 C 545.2878496014866,165.4788625069431 567.763479958583,211.48943986377398 598,232 C 628.236520041417,252.51056013622602 666.2339297671546,247.52110305184712 693,228 C 719.7660702328454,208.47889694815288 735.3008009727986,174.42614792883765 759,173 C 782.6991990272014,171.57385207116235 814.562866341651,202.77430523280228 837,212 C 859.437133658349,221.22569476719772 872.4477336605979,208.47663113995327 899,198 C 925.5522663394021,187.52336886004673 965.6461990159572,179.3191702073846 992,192 C 1018.3538009840428,204.6808297926154 1030.9674702755735,238.24668803050838 1053,224 C 1075.0325297244265,209.75331196949162 1106.4839198817485,147.69407767058178 1133,125 C 1159.5160801182515,102.30592232941822 1181.0968501974319,118.97700128716454 1209,128 C 1236.9031498025681,137.02299871283546 1271.1286793285235,138.39791718076 1294,145 C 1316.8713206714765,151.60208281924 1328.3884324884743,163.4313299897954 1354,163 C 1379.6115675115257,162.5686700102046 1419.3175907175787,149.87676286005845 1436,154 C 1452.6824092824213,158.12323713994155 1446.3412046412107,179.0616185699708 1440,200 C 1440,200 1440,400 1440,400 Z");
+  }
+  50%{
+    d: path("M 0,400 C 0,400 0,200 0,200 C 28.803104308852248,184.44427715224194 57.606208617704496,168.88855430448388 85,188 C 112.3937913822955,207.11144569551612 138.3782698380343,260.89005993430646 165,243 C 191.6217301619657,225.1099400656935 218.8807120301583,135.5512059582901 238,125 C 257.1192879698417,114.4487940417099 268.0988820413324,182.9051162325331 292,197 C 315.9011179586676,211.0948837674669 352.7237598045121,170.82832911157755 377,173 C 401.2762401954879,175.17167088842245 413.0060787406191,219.78156732115664 441,217 C 468.9939212593809,214.21843267884336 513.2519252330113,164.0454016037958 541,154 C 568.7480747669887,143.9545983962042 579.9862203273356,174.0368262636602 599,196 C 618.0137796726644,217.9631737363398 644.8031934576466,231.80729334156334 672,227 C 699.1968065423534,222.19270665843666 726.8010058420789,198.73400037008645 754,212 C 781.1989941579211,225.26599962991355 807.9927831740382,275.25670517809095 832,266 C 856.0072168259618,256.74329482190905 877.2278614617683,188.23917891754996 902,168 C 926.7721385382317,147.76082108245004 955.0957709788896,175.78657915170928 984,205 C 1012.9042290211104,234.21342084829072 1042.3890546226735,264.614504475613 1064,258 C 1085.6109453773265,251.38549552438704 1099.3480105304163,207.7554029458387 1127,171 C 1154.6519894695837,134.2445970541613 1196.218903255662,104.36388374103217 1224,129 C 1251.781096744338,153.63611625896783 1265.7763764469357,232.78906209003264 1284,261 C 1302.2236235530643,289.21093790996736 1324.6755909565943,266.47986789883737 1356,232 C 1387.3244090434057,197.52013210116263 1427.5212597266873,151.29146631461788 1443,144 C 1458.4787402733127,136.70853368538212 1449.2393701366564,168.35426684269106 1440,200 C 1440,200 1440,400 1440,400 Z");
+  }
+  75%{
+    d: path("M 0,400 C 0,400 0,200 0,200 C 27.486731569638337,210.36240847248143 54.973463139276674,220.72481694496284 79,223 C 103.02653686072333,225.27518305503716 123.59287901253163,219.4631406926301 148,208 C 172.40712098746837,196.5368593073699 200.65502081059674,179.4226202845167 226,179 C 251.34497918940326,178.5773797154833 273.7870377450814,194.8463781693031 300,211 C 326.2129622549186,227.1536218306969 356.1968282090777,243.191867038271 379,219 C 401.8031717909223,194.808132961729 417.425649418608,130.38615367761292 446,130 C 474.574350581392,129.61384632238708 516.1005741164904,193.26351825127722 544,205 C 571.8994258835096,216.73648174872278 586.1720541154302,176.5597733172782 607,147 C 627.8279458845698,117.44022668272181 655.2112094217887,98.4973884796101 684,129 C 712.7887905782113,159.5026115203899 742.9831081974147,239.45067276428136 771,243 C 799.0168918025853,246.54932723571864 824.8563577885525,173.6999204632644 845,154 C 865.1436422114475,134.3000795367356 879.5914606483752,167.74964538266107 904,177 C 928.4085393516248,186.25035461733893 962.7777996179461,171.30149800609144 993,187 C 1023.2222003820539,202.69850199390856 1049.2973408798402,249.04436259297307 1069,269 C 1088.7026591201598,288.9556374070269 1102.0328368626926,282.5210516220161 1122,257 C 1141.9671631373074,231.47894837798393 1168.5713116693892,186.87143091896252 1199,191 C 1229.4286883306108,195.12856908103748 1263.6819164597512,247.99322470213377 1293,251 C 1322.3180835402488,254.00677529786623 1346.7010224916055,207.15567027250242 1373,187 C 1399.2989775083945,166.84432972749758 1427.5139935738268,173.38409420785644 1439,180 C 1450.4860064261732,186.61590579214356 1445.2430032130865,193.30795289607178 1440,200 C 1440,200 1440,400 1440,400 Z");
+  }
+  100%{
+    d: path("M 0,400 C 0,400 0,200 0,200 C 19.294908203965555,215.04372808564528 38.58981640793111,230.0874561712906 69,232 C 99.41018359206889,233.9125438287094 140.9356425722411,222.69390340048284 165,228 C 189.0643574277589,233.30609659951716 195.66761330310453,255.136930226778 216,235 C 236.33238669689547,214.863069773222 270.39390421534074,152.7583756924053 297,140 C 323.60609578465926,127.24162430759469 342.75676983553234,163.8295670036008 366,178 C 389.24323016446766,192.1704329963992 416.5790164425298,183.92335629319143 443,206 C 469.4209835574702,228.07664370680857 494.92716439434844,280.47700782363347 520,257 C 545.0728356056516,233.52299217636653 569.7123259800767,134.16861241227463 597,131 C 624.2876740199233,127.83138758772536 654.223531685345,220.84854252726785 678,239 C 701.776468314655,257.15145747273215 719.3935472785429,200.43721747865393 747,199 C 774.6064527214571,197.56278252134607 812.2022792004832,251.40258755811635 838,254 C 863.7977207995168,256.59741244188365 877.7973359195242,207.95243228888054 903,200 C 928.2026640804758,192.04756771111946 964.60837712142,224.7876832863615 989,218 C 1013.39162287858,211.2123167136385 1025.7691555947958,164.89683456567343 1053,180 C 1080.2308444052042,195.10316543432657 1122.3150004993959,271.6249784509447 1148,265 C 1173.6849995006041,258.3750215490553 1182.9708424076202,168.60325163054793 1205,143 C 1227.0291575923798,117.39674836945207 1261.8016298701223,155.96201502686344 1287,155 C 1312.1983701298777,154.03798497313656 1327.8226381118902,113.54868826199831 1356,126 C 1384.1773618881098,138.4513117380017 1424.9078176823168,203.84323192514333 1441,225 C 1457.0921823176832,246.15676807485667 1448.5460911588416,223.07838403742835 1440,200 C 1440,200 1440,400 1440,400 Z");
+  }
+}

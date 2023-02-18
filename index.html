@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transporte Lunar</title>
+
+  <!-- Boostrap css -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <!-- Iconos fontawesome -->
+  <script src="https://kit.fontawesome.com/c2c04fcaa7.js" crossorigin="anonymous"></script>
+
+  <!-- css personal -->
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg nav-transporte">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          Transportes
+          <i class="fa-regular fa-moon"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="index.html" href="">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index/Nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index/Servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index/Clientes.html">Clientes</a>
+            </li>
+
+            <button type="button" class="btn btn-primary cotizar">
+              <a href="index/Cotizar.html" target="_blank">Cotizar</a>
+
+            </button>
+
+            <button type="button" class="btn btn-primary contactar">
+              <a href="index/Contactar.html" target="_blank">contactar</a>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero">
+
+      <div class="container">
+        <div class="row">
+          <article class="col-lg-6 diferenciasLunar">
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#beneficios"
+                  type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+                  Beneficios
+                </button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#destacamos"
+                  type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+                  Destacamos
+                </button>
+              </li>
+            </ul>
+
+            <!-- Seccion de beneficios -->
+
+            <div class="tab-content" id="myTabContent">
+
+
+              <div class="tab-pane fade show active" id="beneficios" role="tabpanel" aria-labelledby="home-tab"
+                tabindex="0">
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <h4><i class="fa-solid fa-mountain-city"></i></h4>
+                      <p>Despacho con las principales empresas de transporte de envíos nacionales y urbanos</p>
+
+                    </div>
+                    <div class="carousel-item">
+                      <h4><i class="fa-solid fa-bell"></i></h4>
+
+                      <p>Notificamos a tus clientes de forma automática por WhatsApp el estado de sus envíos.</p>
+                    </div>
+                    <div class="carousel-item">
+                      <h4><i class="fa-solid fa-sack-dollar"></i></h4>
+                      <p>Tarifas iguales o inferiores a las que conseguirías si enviaras directamente con la
+                        transportadora</p>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Seccion destacamos para carrusel -->
+
+              <div class="tab-pane fade show" id="destacamos" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                      <h4><i class="fa-solid fa-magnifying-glass-location"></i></h4>
+                      <p>Equipamientos GPS antiatraco para todos los servicios</p>
+
+                    </div>
+                    <div class="carousel-item">
+
+                      <h4><i class="fa-solid fa-truck"></i></h4>
+                      <p>Todos nuestros vehículos terrestres están actualizados</p>
+
+                    </div>
+                    <div class="carousel-item">
+
+                      <h4><i class="fa-solid fa-microchip"></i></h4>
+                      <p>Disponemos de un sinfín de productos de protección para asegurar sus mercancías</p>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+          </article>
+
+          <article class="col-lg-6 foto">
+            <img src="img/undraw_container_ship_re_alm4 (2).svg" alt="">
+          </article>
+        </div>
+
+        <h1>Soluciones para todos tus envios</h1>
+        <p class="Hero-info">
+          Transporte lunar te ofrece soluciones rápidas, diferentes e innovadoras soluciones que permiten aplicar
+          diferentes tecnologías para que todos tus despachos lleguén no solo a tiempo, sino de la mejor manera.
+        </p>
+
+      </div>
+    </section>
+  </header>
+
+
+
+  <main>
+
+    <section id="valores">
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0f0e17" fill-opacity="1"
+          d="M0,128L9.6,128C19.2,128,38,128,58,149.3C76.8,171,96,213,115,213.3C134.4,213,154,171,173,176C192,181,211,235,230,224C249.6,213,269,139,288,117.3C307.2,96,326,128,346,149.3C364.8,171,384,181,403,181.3C422.4,181,442,171,461,170.7C480,171,499,181,518,170.7C537.6,160,557,128,576,117.3C595.2,107,614,117,634,106.7C652.8,96,672,64,691,69.3C710.4,75,730,117,749,144C768,171,787,181,806,181.3C825.6,181,845,171,864,186.7C883.2,203,902,245,922,266.7C940.8,288,960,288,979,261.3C998.4,235,1018,181,1037,176C1056,171,1075,213,1094,208C1113.6,203,1133,149,1152,133.3C1171.2,117,1190,139,1210,144C1228.8,149,1248,139,1267,128C1286.4,117,1306,107,1325,101.3C1344,96,1363,96,1382,117.3C1401.6,139,1421,181,1430,202.7L1440,224L1440,0L1430.4,0C1420.8,0,1402,0,1382,0C1363.2,0,1344,0,1325,0C1305.6,0,1286,0,1267,0C1248,0,1229,0,1210,0C1190.4,0,1171,0,1152,0C1132.8,0,1114,0,1094,0C1075.2,0,1056,0,1037,0C1017.6,0,998,0,979,0C960,0,941,0,922,0C902.4,0,883,0,864,0C844.8,0,826,0,806,0C787.2,0,768,0,749,0C729.6,0,710,0,691,0C672,0,653,0,634,0C614.4,0,595,0,576,0C556.8,0,538,0,518,0C499.2,0,480,0,461,0C441.6,0,422,0,403,0C384,0,365,0,346,0C326.4,0,307,0,288,0C268.8,0,250,0,230,0C211.2,0,192,0,173,0C153.6,0,134,0,115,0C96,0,77,0,58,0C38.4,0,19,0,10,0L0,0Z">
+        </path>
+      </svg>
+
+
+
+      <div class="container">
+
+        <h2>¿Cuáles son nuestros valores?</h2>
+
+        <div class="row">
+
+          <article class="valor col-lg-5 card-valores">
+            <img src="img/respeto.svg" alt="respeto">
+
+            <h3>Respeto</h3>
+
+
+          </article>
+
+          <article class="valor col-lg-5 card-valores">
+            <img src="img/trabajoenequipo.svg" alt="trabajo en equipo">
+
+            <h3>Trabajo en equipo</h3>
+
+          </article>
+
+        </div>
+
+        <div class="row">
+
+
+
+          <article class="valor col-lg-5 card-valores">
+            <img src="img/innovacion.svg" alt="innovación">
+
+            <h3>Innovación</h3>
+
+
+          </article>
+
+          <article class="valor col-lg-5 card-valores">
+            <img src="img/responsabilidad.svg" alt="responsabilidad">
+
+            <h3>Responsabilidad</h3>
+
+
+          </article>
+
+
+
+        </div>
+
+
+
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0f0e17" fill-opacity="1"
+          d="M0,128L11.4,106.7C22.9,85,46,43,69,58.7C91.4,75,114,149,137,165.3C160,181,183,139,206,128C228.6,117,251,139,274,144C297.1,149,320,139,343,117.3C365.7,96,389,64,411,69.3C434.3,75,457,117,480,138.7C502.9,160,526,160,549,144C571.4,128,594,96,617,112C640,128,663,192,686,234.7C708.6,277,731,299,754,304C777.1,309,800,299,823,298.7C845.7,299,869,309,891,266.7C914.3,224,937,128,960,117.3C982.9,107,1006,181,1029,202.7C1051.4,224,1074,192,1097,202.7C1120,213,1143,267,1166,282.7C1188.6,299,1211,277,1234,224C1257.1,171,1280,85,1303,74.7C1325.7,64,1349,128,1371,128C1394.3,128,1417,64,1429,32L1440,0L1440,320L1428.6,320C1417.1,320,1394,320,1371,320C1348.6,320,1326,320,1303,320C1280,320,1257,320,1234,320C1211.4,320,1189,320,1166,320C1142.9,320,1120,320,1097,320C1074.3,320,1051,320,1029,320C1005.7,320,983,320,960,320C937.1,320,914,320,891,320C868.6,320,846,320,823,320C800,320,777,320,754,320C731.4,320,709,320,686,320C662.9,320,640,320,617,320C594.3,320,571,320,549,320C525.7,320,503,320,480,320C457.1,320,434,320,411,320C388.6,320,366,320,343,320C320,320,297,320,274,320C251.4,320,229,320,206,320C182.9,320,160,320,137,320C114.3,320,91,320,69,320C45.7,320,23,320,11,320L0,320Z">
+        </path>
+      </svg>
+
+
+    </section>
+
+    <section id="formas-transporte">
+
+      <div class="container">
+
+
+        <h3>Formas de transporte y sus características</h3>
+
+
+        <div class="row">
+
+          <table>
+            <thead>
+              <tr class="encabezados">
+                <th>Método de transporte</th>
+                <th>Tipo de mercancía</th>
+                <th>Capacidad de carga</th>
+                <th>Coste del servicio</th>
+                <th>Seguridad del medio</th>
+                <th>Plazos de entrega</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="index/Transporte_fluvial.html" target="_blank">Fluvial</a></td>
+                <td>Culquiera</td>
+                <td>Alta</td>
+                <td>Medio</td>
+                <td>Alta</td>
+                <td>Medios y largos</td>
+              </tr>
+              <tr>
+                <td><a href="index/Transporte_terrestre.html " target="_blank">Terrestre</a> </td>
+                <td>Culquiera</td>
+                <td>Media</td>
+                <td>Bajo</td>
+                <td>Media</td>
+                <td>Cortos y medios</td>
+              </tr>
+              <tr>
+                <td><a href="index/Transporte_aereo.html" target="_blank">Aéreo</a> </td>
+                <td>Alto valor</td>
+                <td>Alta</td>
+                <td>Alto</td>
+                <td>Alta</td>
+                <td>Cortos y urgentes</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <footer>
+
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg"
+      class="transition duration-300 ease-in-out delay-150">
+
+      <path
+        d="M 0,400 C 0,400 0,200 0,200 C 19.294908203965555,215.04372808564528 38.58981640793111,230.0874561712906 69,232 C 99.41018359206889,233.9125438287094 140.9356425722411,222.69390340048284 165,228 C 189.0643574277589,233.30609659951716 195.66761330310453,255.136930226778 216,235 C 236.33238669689547,214.863069773222 270.39390421534074,152.7583756924053 297,140 C 323.60609578465926,127.24162430759469 342.75676983553234,163.8295670036008 366,178 C 389.24323016446766,192.1704329963992 416.5790164425298,183.92335629319143 443,206 C 469.4209835574702,228.07664370680857 494.92716439434844,280.47700782363347 520,257 C 545.0728356056516,233.52299217636653 569.7123259800767,134.16861241227463 597,131 C 624.2876740199233,127.83138758772536 654.223531685345,220.84854252726785 678,239 C 701.776468314655,257.15145747273215 719.3935472785429,200.43721747865393 747,199 C 774.6064527214571,197.56278252134607 812.2022792004832,251.40258755811635 838,254 C 863.7977207995168,256.59741244188365 877.7973359195242,207.95243228888054 903,200 C 928.2026640804758,192.04756771111946 964.60837712142,224.7876832863615 989,218 C 1013.39162287858,211.2123167136385 1025.7691555947958,164.89683456567343 1053,180 C 1080.2308444052042,195.10316543432657 1122.3150004993959,271.6249784509447 1148,265 C 1173.6849995006041,258.3750215490553 1182.9708424076202,168.60325163054793 1205,143 C 1227.0291575923798,117.39674836945207 1261.8016298701223,155.96201502686344 1287,155 C 1312.1983701298777,154.03798497313656 1327.8226381118902,113.54868826199831 1356,126 C 1384.1773618881098,138.4513117380017 1424.9078176823168,203.84323192514333 1441,225 C 1457.0921823176832,246.15676807485667 1448.5460911588416,223.07838403742835 1440,200 C 1440,200 1440,400 1440,400 Z"
+        stroke="none" stroke-width="0" fill="#0f0e17" fill-opacity="1"
+        class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)"></path>
+
+    </svg>
+
+
+    <div class="container">
+
+
+      <div class="row clase-flex">
+
+        <div class="col-lg-6 logo-footer">
+
+          <a class="footer-brand" href="#">
+            Transportes
+            <i class="fa-regular fa-moon"></i>
+          </a>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="redes">
+            <a href="https://es-la.facebook.com/" target="_blank">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/" target="_blank">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="derechos">
+          <p>Todos los derechos reservados <span>©</span> 2022 - <span>Camilo</span> </p>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+    <!-- Javascript propio -->
+
+   
+
+    
+
+
+
+
+
+  <!-- JavaScript de boostrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+    
+    <!-- Javascript propio -->
+
+    <script src="main.js"></script>
+</body>
+
+</html>
